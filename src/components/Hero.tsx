@@ -222,7 +222,7 @@ export default function Hero() {
                     <div className="absolute inset-0 rounded-full bg-blue-500/30 blur-2xl scale-150" />
                     <div className="relative w-36 h-36 rounded-full border-2 border-blue-500/30 overflow-hidden shadow-2xl shadow-blue-500/20">
                       <img
-                        src="/waleed.jpg"
+                        src="/waleed.png"
                         alt="Waleed Ishaq"
                         className="w-full h-full object-cover object-top"
                         onError={(e) => {

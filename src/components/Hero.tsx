@@ -96,7 +96,7 @@ export default function Hero() {
 
           <div className="relative grid gap-10 lg:grid-cols-2 lg:gap-16">
             {/* ─── Left Column ─── */}
-            <div className="space-y-8">
+            <div className="space-y-8 order-2 lg:order-1">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -208,7 +208,7 @@ export default function Hero() {
             </div>
 
             {/* ─── Right Column – Profile Card ─── */}
-            <div className="relative">
+            <div className="relative order-1 lg:order-2">
               <div className="absolute inset-0 rounded-[28px] bg-gradient-to-b from-blue-500/20 via-transparent to-transparent blur-3xl" />
               <div className="relative flex h-full flex-col justify-between overflow-hidden rounded-[24px] border border-white/[0.08] bg-white/[0.03] p-8 backdrop-blur-xl">
                 {/* Avatar */}
